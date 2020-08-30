@@ -4,3 +4,7 @@ var typed = new Typed('.text',{
     backSpeed:50,
     loop:true
 });
+var preloader = document.getElementById('loading');
+function myFunction(){
+    preloader.style.display = 'None';
+}
